@@ -1,0 +1,35 @@
+/* base tokens; pages switch to a named theme through data-theme on the root element */
+:root {
+  color-scheme: dark;
+
+  --color-bg: #0e1319;
+  --color-bg-deep: #0a0e13;
+  --color-surface-1: #121921;
+  --color-surface-2: #0f151c;
+  --color-surface-3: #18212b;
+  --color-input: #151d26;
+
+  --color-text: #9aa6b5;
+  --color-text-muted: #7f8b9b;
+  --color-heading: #e6edf5;
+  --color-accent: #cfd9e6;
+  --color-tooltip: #1f2937;
+
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.12);
+  --card-elevation: inset 0 0 0 1px rgba(255, 255, 255, 0.07), 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+
+  /* status hues for the timeline; muted so they sit on the dark surfaces without glowing */
+  --color-info: #7fa7d6;
+  --color-ok: #7dbf9a;
+  --color-warn: #d9b46a;
+  --color-error: #d98080;
+
+  --font-body: 'Open Sans', system-ui, sans-serif;
+  --measure: 60rem;
+  --radius: 6px;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+}

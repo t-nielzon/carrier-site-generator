@@ -1,0 +1,908 @@
+{
+  "specVersion": 1,
+  "carrierId": "ocotillo",
+  "slug": "ocotillo-ridge-flatbed",
+  "business": {
+    "name": "Ocotillo Ridge Flatbed",
+    "phone": "(602) 555-0186",
+    "email": "ocotillo.flatbed@example.com",
+    "street": "4120 W Dry Wash Road",
+    "city": "Tolleson",
+    "state": "AZ",
+    "zip": "85353",
+    "hours": [
+      "Mon–Sat 5:00 a.m.–7:00 p.m.",
+      "Texts answered after hours"
+    ]
+  },
+  "design": {
+    "palette": {
+      "bg": "#f2e9dc",
+      "surface": "#faf5ee",
+      "text": "#2b211a",
+      "muted": "#5c4d41",
+      "heading": "#22180f",
+      "primary": "#9e3c1a",
+      "onPrimary": "#ffffff",
+      "accent": "#c98a3d",
+      "heroBg": "#2a1f17",
+      "heroText": "#f3eadc",
+      "border": "#dbcbb6"
+    },
+    "fonts": {
+      "heading": {
+        "family": "Barlow Condensed",
+        "fallback": "'Arial Narrow', sans-serif",
+        "weight": 700
+      },
+      "body": {
+        "family": "Barlow",
+        "fallback": "system-ui, sans-serif",
+        "weight": 400
+      }
+    },
+    "heroVariant": "stacked",
+    "radius": "square"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "",
+      "navLabel": "Home",
+      "seo": {
+        "title": "Flatbed and Step Deck Trucking in Phoenix | Ocotillo Ridge",
+        "description": "Owner-operator flatbed and step deck hauling from Phoenix to Arizona, Nevada, New Mexico and Southern California. Quotes sent the same day.",
+        "h1": "Flatbed and step deck.\nOne truck. I drive it.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Flatbed and step deck. One truck. I drive it."
+          },
+          {
+            "level": 2,
+            "text": "You talk to the driver"
+          },
+          {
+            "level": 2,
+            "text": "My equipment"
+          },
+          {
+            "level": 3,
+            "text": "48-ft flatbed"
+          },
+          {
+            "level": 3,
+            "text": "48-ft step deck"
+          },
+          {
+            "level": 3,
+            "text": "Securement"
+          },
+          {
+            "level": 2,
+            "text": "What I haul"
+          },
+          {
+            "level": 3,
+            "text": "Building materials"
+          },
+          {
+            "level": 3,
+            "text": "Steel and pipe"
+          },
+          {
+            "level": 3,
+            "text": "Machinery"
+          },
+          {
+            "level": 3,
+            "text": "Solar project materials"
+          },
+          {
+            "level": 2,
+            "text": "Where I run"
+          },
+          {
+            "level": 2,
+            "text": "Need a flatbed out of Phoenix?"
+          }
+        ],
+        "localKeywords": [
+          "Phoenix",
+          "Tolleson",
+          "Arizona"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Owner-operator · Tolleson, AZ",
+          "lead": "I haul building materials, steel, pipe and solar project materials across Arizona, Nevada, New Mexico and Southern California. I tarp and secure every load, and I send photos at pickup and at delivery.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": [],
+          "secondaryCta": {
+            "label": "See my lanes",
+            "href": "lanes/"
+          },
+          "image": {
+            "id": "flatbed-tractor",
+            "alt": "An orange long-nose tractor coupled to an empty flatbed trailer in a dirt yard"
+          }
+        },
+        {
+          "kind": "stats",
+          "label": "Truck and trailers",
+          "items": [
+            {
+              "value": "1",
+              "label": "Tractor, driven by the owner"
+            },
+            {
+              "value": "48-ft",
+              "label": "Flatbed"
+            },
+            {
+              "value": "48-ft",
+              "label": "Step deck"
+            },
+            {
+              "value": "Same day",
+              "label": "Quotes"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "heading": "You talk to the driver",
+          "image": {
+            "id": "flatbed-strapped-load",
+            "alt": "Bundled lumber held down with ratchet straps on a flatbed trailer"
+          },
+          "paragraphs": [
+            "I run the truck myself. You talk to the driver who hauls your load.",
+            "I tarp and secure every load, and I send photos at pickup and at delivery. It is one truck, so book early when you can."
+          ]
+        },
+        {
+          "kind": "cards",
+          "display": "tabs",
+          "heading": "My equipment",
+          "intro": "Pick a trailer or the securement gear to see what it is for.",
+          "items": [
+            {
+              "title": "48-ft flatbed",
+              "body": "For building materials, steel and pipe."
+            },
+            {
+              "title": "48-ft step deck",
+              "body": "For machinery up to step-deck height limits."
+            },
+            {
+              "title": "Securement",
+              "body": "Tarps, chains and straps go on every load. Edge protectors go where straps cross the edges of your freight."
+            }
+          ]
+        },
+        {
+          "kind": "cards",
+          "display": "panels",
+          "heading": "What I haul",
+          "items": [
+            {
+              "title": "Building materials",
+              "body": "Materials for job sites and supply yards."
+            },
+            {
+              "title": "Steel and pipe",
+              "body": "Chained and strapped, with edge protectors where straps cross edges."
+            },
+            {
+              "title": "Machinery",
+              "body": "Loads up to step-deck height limits."
+            },
+            {
+              "title": "Solar project materials",
+              "body": "Delivered to solar project sites."
+            }
+          ]
+        },
+        {
+          "kind": "lanes",
+          "display": "list",
+          "heading": "Where I run",
+          "intro": "Every lane starts in Phoenix. Albuquerque runs on request.",
+          "lanes": [
+            {
+              "from": "Phoenix, AZ",
+              "to": "Tucson, AZ",
+              "miles": 115,
+              "frequency": "Weekly"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Las Vegas, NV",
+              "miles": 300,
+              "frequency": "Weekly"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Albuquerque, NM",
+              "miles": 420,
+              "frequency": "On request"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Ontario, CA",
+              "miles": 315,
+              "frequency": "Weekly"
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a flatbed out of Phoenix?",
+          "body": "Call or text me, or send the form. Quotes go out the same day.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "direct": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "path": "services/",
+      "navLabel": "Services",
+      "seo": {
+        "title": "Flatbed and Step Deck Services in Phoenix | Ocotillo Ridge",
+        "description": "Building materials, steel and pipe, machinery and solar project materials on a 48-ft flatbed or step deck from Phoenix. Quotes the same day.",
+        "h1": "What I haul,\nand how I secure it.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "What I haul, and how I secure it."
+          },
+          {
+            "level": 2,
+            "text": "Freight"
+          },
+          {
+            "level": 3,
+            "text": "Building materials"
+          },
+          {
+            "level": 3,
+            "text": "Steel and pipe"
+          },
+          {
+            "level": 3,
+            "text": "Machinery"
+          },
+          {
+            "level": 3,
+            "text": "Solar project materials"
+          },
+          {
+            "level": 2,
+            "text": "Equipment"
+          },
+          {
+            "level": 3,
+            "text": "48-ft flatbed"
+          },
+          {
+            "level": 3,
+            "text": "48-ft step deck"
+          },
+          {
+            "level": 3,
+            "text": "Tarps, chains and straps"
+          },
+          {
+            "level": 3,
+            "text": "Edge protectors"
+          },
+          {
+            "level": 2,
+            "text": "Before you book"
+          },
+          {
+            "level": 2,
+            "text": "Need a flatbed out of Phoenix?"
+          }
+        ],
+        "localKeywords": [
+          "Phoenix"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Services",
+          "lead": "One 48-ft flatbed and one 48-ft step deck. Tarps, chains and straps go on every load.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "cards",
+          "display": "panels",
+          "heading": "Freight",
+          "items": [
+            {
+              "title": "Building materials",
+              "body": "For job sites and supply yards."
+            },
+            {
+              "title": "Steel and pipe",
+              "body": "Chained, strapped and protected at the edges."
+            },
+            {
+              "title": "Machinery",
+              "body": "Up to step-deck height limits."
+            },
+            {
+              "title": "Solar project materials",
+              "body": "Delivered to project sites."
+            }
+          ]
+        },
+        {
+          "kind": "cards",
+          "display": "tabs",
+          "heading": "Equipment",
+          "items": [
+            {
+              "title": "48-ft flatbed",
+              "body": "For building materials, steel and pipe."
+            },
+            {
+              "title": "48-ft step deck",
+              "body": "For machinery up to step-deck height limits."
+            },
+            {
+              "title": "Tarps, chains and straps",
+              "body": "On every load."
+            },
+            {
+              "title": "Edge protectors",
+              "body": "Where straps cross the edges of your freight."
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "heading": "Before you book",
+          "items": [
+            "Fully insured, certificate of insurance on request",
+            "DOT number on file",
+            "Photos at pickup and at delivery",
+            "Texts answered after hours"
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a flatbed out of Phoenix?",
+          "body": "Call or text me, or send the form. Quotes go out the same day.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "direct": true
+        }
+      ]
+    },
+    {
+      "id": "lanes",
+      "path": "lanes/",
+      "navLabel": "Lanes & Coverage",
+      "seo": {
+        "title": "Phoenix Flatbed Lanes to AZ, NV, NM and CA | Ocotillo",
+        "description": "Weekly flatbed runs from Phoenix to Tucson, Las Vegas and Ontario, CA, and Albuquerque on request. Arizona, Nevada, New Mexico and Southern California.",
+        "h1": "Lanes out of Phoenix.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Lanes out of Phoenix."
+          },
+          {
+            "level": 2,
+            "text": "Regular runs"
+          },
+          {
+            "level": 2,
+            "text": "Other places"
+          },
+          {
+            "level": 2,
+            "text": "Need a flatbed out of Phoenix?"
+          }
+        ],
+        "localKeywords": [
+          "Phoenix",
+          "Tucson",
+          "Las Vegas",
+          "Albuquerque",
+          "Ontario"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Lanes and coverage",
+          "lead": "I cover Arizona, Nevada, New Mexico and Southern California. These are my regular runs.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "lanes",
+          "display": "list",
+          "heading": "Regular runs",
+          "intro": "Distances are approximate road miles.",
+          "lanes": [
+            {
+              "from": "Phoenix, AZ",
+              "to": "Tucson, AZ",
+              "miles": 115,
+              "frequency": "Weekly"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Las Vegas, NV",
+              "miles": 300,
+              "frequency": "Weekly"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Albuquerque, NM",
+              "miles": 420,
+              "frequency": "On request"
+            },
+            {
+              "from": "Phoenix, AZ",
+              "to": "Ontario, CA",
+              "miles": 315,
+              "frequency": "Weekly"
+            }
+          ]
+        },
+        {
+          "kind": "prose",
+          "heading": "Other places",
+          "paragraphs": [
+            "Send me the pickup and delivery cities. I tell you the same day if I can take the load."
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a flatbed out of Phoenix?",
+          "body": "Call or text me, or send the form. Quotes go out the same day.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "direct": true
+        }
+      ]
+    },
+    {
+      "id": "quote",
+      "path": "quote/",
+      "navLabel": "Request a Quote",
+      "seo": {
+        "title": "Request a Flatbed Quote in Phoenix | Ocotillo Ridge Flatbed",
+        "description": "Send your Phoenix flatbed or step deck load: lane, freight, size and pickup date. Ocotillo Ridge Flatbed sends a quote the same day.",
+        "h1": "Request a flatbed quote.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Request a flatbed quote."
+          },
+          {
+            "level": 2,
+            "text": "Load details"
+          },
+          {
+            "level": 2,
+            "text": "Call or text the driver"
+          }
+        ],
+        "localKeywords": [
+          "Phoenix"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Quotes",
+          "lead": "Tell me the freight, its size and the pickup date. I send a quote the same day.",
+          "primaryCta": {
+            "label": "Go to the form",
+            "href": "#quote-form"
+          },
+          "highlights": [],
+          "secondaryCta": {
+            "label": "Call (602) 555-0186",
+            "href": "tel:+16025550186"
+          }
+        },
+        {
+          "kind": "quote-form",
+          "heading": "Load details",
+          "intro": "Put the length, width, height and weight in the freight details.",
+          "equipmentOptions": [
+            "48-ft flatbed",
+            "48-ft step deck"
+          ],
+          "submitLabel": "Send quote request",
+          "responseNote": "Quotes sent the same day.",
+          "contactHeading": "Call or text the driver"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "path": "faq/",
+      "navLabel": "FAQ",
+      "seo": {
+        "title": "Phoenix Flatbed Shipping FAQ | Ocotillo Ridge Flatbed",
+        "description": "Answers about Ocotillo Ridge Flatbed: Phoenix flatbed and step deck hauling, load securement, photos, coverage and quote times.",
+        "h1": "Questions, answered\nby the driver.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Questions, answered by the driver."
+          },
+          {
+            "level": 2,
+            "text": "Common questions"
+          },
+          {
+            "level": 3,
+            "text": "Who drives the truck?"
+          },
+          {
+            "level": 3,
+            "text": "What equipment do you run?"
+          },
+          {
+            "level": 3,
+            "text": "How do you secure loads?"
+          },
+          {
+            "level": 3,
+            "text": "Do you send photos?"
+          },
+          {
+            "level": 3,
+            "text": "Where do you haul?"
+          },
+          {
+            "level": 3,
+            "text": "When can I reach you?"
+          },
+          {
+            "level": 2,
+            "text": "Need a flatbed out of Phoenix?"
+          }
+        ],
+        "localKeywords": [
+          "Phoenix"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "FAQ",
+          "lead": "Short answers about the truck, the lanes and quotes.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "faq",
+          "display": "accordion",
+          "heading": "Common questions",
+          "items": [
+            {
+              "q": "Who drives the truck?",
+              "a": "I do. I am Dario Quintero, the owner. You talk to the driver who hauls your load."
+            },
+            {
+              "q": "What equipment do you run?",
+              "a": "One 48-ft flatbed and one 48-ft step deck."
+            },
+            {
+              "q": "How do you secure loads?",
+              "a": "I use tarps, chains and straps on every load, and edge protectors."
+            },
+            {
+              "q": "Do you send photos?",
+              "a": "Yes. I send photos at pickup and at delivery."
+            },
+            {
+              "q": "Where do you haul?",
+              "a": "Arizona, Nevada, New Mexico and Southern California. I run weekly to Tucson, Las Vegas and Ontario, CA. Albuquerque is on request."
+            },
+            {
+              "q": "When can I reach you?",
+              "a": "Monday to Saturday, 5:00 a.m. to 7:00 p.m. I answer texts after hours."
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a flatbed out of Phoenix?",
+          "body": "Call or text me, or send the form. Quotes go out the same day.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "direct": true
+        }
+      ]
+    }
+  ],
+  "structuredData": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ocotillo Ridge Flatbed",
+      "description": "Owner-operator flatbed and step deck carrier in the Phoenix area.",
+      "url": "https://work.nielzontolentino.com/carrier-sites/ocotillo-ridge-flatbed/",
+      "telephone": "(602) 555-0186",
+      "email": "ocotillo.flatbed@example.com",
+      "foundingDate": "2019",
+      "founder": {
+        "@type": "Person",
+        "name": "Dario Quintero"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4120 W Dry Wash Road",
+        "addressLocality": "Tolleson",
+        "addressRegion": "AZ",
+        "postalCode": "85353",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Arizona",
+        "Nevada",
+        "New Mexico",
+        "Southern California"
+      ]
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who drives the truck?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I do. I am Dario Quintero, the owner. You talk to the driver who hauls your load."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What equipment do you run?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One 48-ft flatbed and one 48-ft step deck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you secure loads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I use tarps, chains and straps on every load, and edge protectors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you send photos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I send photos at pickup and at delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you haul?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arizona, Nevada, New Mexico and Southern California. I run weekly to Tucson, Las Vegas and Ontario, CA. Albuquerque is on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When can I reach you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monday to Saturday, 5:00 a.m. to 7:00 p.m. I answer texts after hours."
+          }
+        }
+      ]
+    }
+  },
+  "sitemap": [
+    {
+      "path": "",
+      "changefreq": "weekly",
+      "priority": 1
+    },
+    {
+      "path": "services/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    },
+    {
+      "path": "lanes/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    },
+    {
+      "path": "quote/",
+      "changefreq": "monthly",
+      "priority": 0.9
+    },
+    {
+      "path": "faq/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    }
+  ],
+  "facts": [
+    {
+      "id": "founded",
+      "claim": "Founded in 2019",
+      "source": "foundedYear",
+      "value": "2019"
+    },
+    {
+      "id": "owner",
+      "claim": "Owned by Dario Quintero",
+      "source": "owner",
+      "value": "Dario Quintero"
+    },
+    {
+      "id": "tractors",
+      "claim": "One tractor",
+      "source": "fleet.tractors",
+      "value": "1"
+    },
+    {
+      "id": "one-truck",
+      "claim": "The owner drives the truck",
+      "source": "ownerNote",
+      "value": "I run the truck myself"
+    },
+    {
+      "id": "photos",
+      "claim": "Photos at pickup and delivery",
+      "source": "ownerNote",
+      "value": "I send photos at pickup and at delivery"
+    },
+    {
+      "id": "flatbed",
+      "claim": "48-ft flatbed",
+      "source": "fleet.trailers.0.type",
+      "value": "48-ft flatbed"
+    },
+    {
+      "id": "stepdeck",
+      "claim": "48-ft step deck",
+      "source": "fleet.trailers.1.type",
+      "value": "48-ft step deck"
+    },
+    {
+      "id": "securement",
+      "claim": "Tarps, chains and straps on every load",
+      "source": "equipment.2",
+      "value": "Tarps, chains and straps on every load"
+    },
+    {
+      "id": "edge",
+      "claim": "Edge protectors",
+      "source": "equipment.3",
+      "value": "Edge protectors"
+    },
+    {
+      "id": "insured",
+      "claim": "Fully insured, certificate on request",
+      "source": "credentials.0",
+      "value": "Fully insured, certificate of insurance on request"
+    },
+    {
+      "id": "dot",
+      "claim": "DOT number on file",
+      "source": "credentials.1",
+      "value": "DOT number on file"
+    },
+    {
+      "id": "quote-speed",
+      "claim": "Quotes the same day",
+      "source": "quoteResponse",
+      "value": "Quotes sent the same day"
+    },
+    {
+      "id": "area",
+      "claim": "Arizona, Nevada, New Mexico and Southern California",
+      "source": "serviceArea",
+      "value": "Arizona, Nevada, New Mexico and Southern California"
+    },
+    {
+      "id": "lane-tus",
+      "claim": "Tucson about 115 miles",
+      "source": "lanes.0.miles",
+      "value": "115"
+    },
+    {
+      "id": "lane-las",
+      "claim": "Las Vegas about 300 miles",
+      "source": "lanes.1.miles",
+      "value": "300"
+    },
+    {
+      "id": "lane-abq",
+      "claim": "Albuquerque about 420 miles",
+      "source": "lanes.2.miles",
+      "value": "420"
+    },
+    {
+      "id": "lane-ont",
+      "claim": "Ontario about 315 miles",
+      "source": "lanes.3.miles",
+      "value": "315"
+    },
+    {
+      "id": "phone",
+      "claim": "Phone",
+      "source": "contact.phone",
+      "value": "(602) 555-0186"
+    },
+    {
+      "id": "email",
+      "claim": "Email",
+      "source": "contact.email",
+      "value": "ocotillo.flatbed@example.com"
+    },
+    {
+      "id": "street",
+      "claim": "Street address",
+      "source": "base.street",
+      "value": "4120 W Dry Wash Road"
+    },
+    {
+      "id": "zip",
+      "claim": "ZIP code",
+      "source": "base.zip",
+      "value": "85353"
+    },
+    {
+      "id": "hours",
+      "claim": "Hours",
+      "source": "hours.0",
+      "value": "Mon–Sat 5:00 a.m.–7:00 p.m."
+    },
+    {
+      "id": "texts",
+      "claim": "Texts answered after hours",
+      "source": "hours.1",
+      "value": "Texts answered after hours"
+    }
+  ]
+}

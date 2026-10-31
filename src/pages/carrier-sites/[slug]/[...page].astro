@@ -1,0 +1,27 @@
+---
+import CarrierSite from '../../../layouts/CarrierSite.astro';
+import { carriers } from '../../../carrier/inputs';
+import { publishedSpec } from '../../../carrier/recorded';
+import { pageHead, renderBody, renderCss } from '../../../carrier/render';
+import type { PageId } from '../../../carrier/types';
+
+export function getStaticPaths() {
+  return carriers.flatMap((carrier) => {
+    const spec = publishedSpec(carrier.id);
+    return spec.pages.map((page) => ({
+      params: { slug: spec.slug, page: page.path === '' ? undefined : page.path.replace(/\/$/, '') },
+      props: { carrierId: carrier.id, pageId: page.id },
+    }));
+  });
+}
+
+interface Props {
+  carrierId: string;
+  pageId: PageId;
+}
+
+const { carrierId, pageId } = Astro.props;
+const spec = publishedSpec(carrierId);
+---
+
+<CarrierSite head={pageHead(spec, pageId)} css={renderCss(spec)} body={renderBody(spec, pageId)} />

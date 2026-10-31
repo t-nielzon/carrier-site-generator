@@ -1,0 +1,68 @@
+/* light theme for pages that present generated output. the output is light, so a warm paper
+   ground lets it read as the subject instead of fighting a dark frame. */
+:root[data-theme='paper'] {
+  color-scheme: light;
+
+  --color-bg: #f5f2ec;
+  --color-bg-deep: #f5f2ec;
+  --color-surface-1: #fbf9f5;
+  --color-surface-2: #ece7de;
+  --color-surface-3: #ffffff;
+  --color-input: #ffffff;
+
+  --color-text: #33343a;
+  --color-text-muted: #5d5e66;
+  --color-heading: #141518;
+  --color-accent: #1d5747;
+  --color-tooltip: #141518;
+
+  --color-border: #e1dacd;
+  --color-border-strong: #c9c0b0;
+  --card-elevation: inset 0 0 0 1px #e1dacd;
+
+  --color-info: #2c5d87;
+  --color-ok: #23664a;
+  --color-warn: #8f5512;
+  --color-error: #a3302a;
+
+  --color-ink: #16171a;
+  --color-on-ink: #f1eee8;
+  --color-on-ink-muted: #b4b1aa;
+
+  --font-body: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --page: 76rem;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --radius: 4px;
+}
+
+:root[data-theme='paper'] body {
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root[data-theme='paper'] .site-header {
+  padding: 1rem var(--gutter);
+}
+
+:root[data-theme='paper'] .site-header__inner,
+:root[data-theme='paper'] .site-footer p {
+  max-width: calc(var(--page) - 2 * var(--gutter));
+}
+
+:root[data-theme='paper'] .brand {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+:root[data-theme='paper'] .site-footer {
+  padding: 2rem var(--gutter);
+  background: var(--color-surface-2);
+}
+
+:root[data-theme='paper'] :focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}

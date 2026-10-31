@@ -1,0 +1,12 @@
+Carrier Site Generator
+Copyright (c) 2026 Nielzon Tolentino
+
+The MIT License in LICENSE covers the source code and documentation in this
+repository.
+
+It does not cover the photos in public/carrier-media/. Those are third-party
+stock photos that stay under their own licenses (the Pexels License and CC0),
+as listed with their authors and sources in CREDITS.md.
+
+The self-hosted fonts are installed from npm through Fontsource and are
+licensed under the SIL Open Font License.

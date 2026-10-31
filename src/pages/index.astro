@@ -1,0 +1,47 @@
+---
+import '@fontsource-variable/inter/wght.css';
+import '@fontsource/ibm-plex-mono/latin-500.css';
+import Base from '../layouts/Base.astro';
+import '../styles/paper.css';
+import CarrierDemo from '../components/carrier/CarrierDemo';
+import { buildDemoView, buildStagedView, CHECK_GROUPS, PHASES } from '../carrier/demo';
+
+const DISCLOSURE = 'Recorded demo. Generation is replayed; timings are simulated. All businesses are fictional.';
+
+const views = [
+  buildDemoView('henley-ridge', 'Dry van · Atlanta area'),
+  buildDemoView('larkspur', 'Reefer · Dallas area'),
+  buildDemoView('ocotillo', 'Flatbed · Phoenix'),
+];
+const staged = { ...buildStagedView('henley-ridge'), carrierId: 'henley-ridge' };
+---
+
+<Base
+  title="Carrier website generator"
+  description="A workspace that turns a carrier's business details into a checked website. Recorded demo with three fictional trucking businesses."
+  footerNote="Built from scratch for demonstration. All carriers, people, addresses, phone numbers, emails and lanes are fictional. Generation is replayed from recorded content. Photos on the carrier sites are licensed stock, credited on each page."
+  theme="paper"
+  full
+>
+  <h1 class="cs-title">Carrier website generator</h1>
+  <div class="cs-app">
+    <CarrierDemo client:load carriers={views} phases={PHASES} groups={CHECK_GROUPS} staged={staged} disclosure={DISCLOSURE} />
+  </div>
+</Base>
+
+<style>
+  .cs-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .cs-app {
+    max-width: 84rem;
+    margin: 0 auto;
+    padding: clamp(0.75rem, 2.5vw, 2rem) clamp(0.75rem, 2.5vw, 2rem) clamp(2rem, 5vw, 4rem);
+  }
+</style>

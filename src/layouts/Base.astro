@@ -1,0 +1,130 @@
+---
+import '../styles/tokens.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  footerNote?: string;
+  /** 'paper' switches the shared tokens to the light theme; pages opt in, the default stays dark */
+  theme?: 'dark' | 'paper';
+  /** full lets a page lay out its own full-width bands instead of the reading measure */
+  full?: boolean;
+}
+
+const { title, theme = 'dark', full = false, description = 'Carrier website generator.', footerNote = 'All businesses are fictional.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="48x48" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="/">Carrier website generator</a>
+      </div>
+    </header>
+    <main class:list={[{ 'main--full': full }]}>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>{footerNote}</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  strong {
+    color: var(--color-heading);
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.25;
+  }
+
+  a {
+    color: var(--color-accent);
+  }
+
+  a:hover {
+    color: var(--color-heading);
+  }
+
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: var(--space-4) var(--space-2);
+  }
+
+  main.main--full {
+    max-width: none;
+    padding: 0;
+  }
+</style>
+
+<style>
+  .site-header {
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-2);
+  }
+
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem 1.25rem;
+    max-width: var(--measure);
+    margin: 0 auto;
+  }
+
+  .brand {
+    color: var(--color-heading);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .site-footer {
+    background: var(--color-surface-2);
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-3) var(--space-2);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .site-footer p {
+    max-width: var(--measure);
+    margin: 0 auto var(--space-1);
+  }
+</style>

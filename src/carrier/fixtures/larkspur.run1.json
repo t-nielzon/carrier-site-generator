@@ -1,0 +1,940 @@
+{
+  "specVersion": 1,
+  "carrierId": "larkspur",
+  "slug": "larkspur-cold-lines",
+  "business": {
+    "name": "Larkspur Cold Lines",
+    "phone": "(214) 555-0117",
+    "email": "larkspur.ops@example.com",
+    "street": "88 Teal Creek Drive",
+    "city": "Wilmer",
+    "state": "TX",
+    "zip": "75172",
+    "hours": [
+      "Dispatch open 24/7"
+    ]
+  },
+  "design": {
+    "palette": {
+      "bg": "#f6f8fa",
+      "surface": "#ffffff",
+      "text": "#1c2733",
+      "muted": "#4c5a69",
+      "heading": "#0c1a29",
+      "primary": "#0b56a0",
+      "onPrimary": "#ffffff",
+      "accent": "#8fbbe3",
+      "heroBg": "#0c2137",
+      "heroText": "#edf3f9",
+      "border": "#d6dee8"
+    },
+    "fonts": {
+      "heading": {
+        "family": "IBM Plex Sans",
+        "fallback": "system-ui, sans-serif",
+        "weight": 600
+      },
+      "body": {
+        "family": "IBM Plex Sans",
+        "fallback": "system-ui, sans-serif",
+        "weight": 400
+      }
+    },
+    "heroVariant": "band",
+    "radius": "square"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "",
+      "navLabel": "Home",
+      "seo": {
+        "title": "Refrigerated Trucking in Dallas, TX | Larkspur Cold Lines",
+        "description": "Reefer and multi-temperature trucking from Dallas across Texas, Oklahoma and Arkansas. Temperature records for every load.",
+        "h1": "Reefer freight\nfor Texas, Oklahoma\nand Arkansas.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Reefer freight for Texas, Oklahoma and Arkansas."
+          },
+          {
+            "level": 2,
+            "text": "What we haul"
+          },
+          {
+            "level": 3,
+            "text": "Fresh produce"
+          },
+          {
+            "level": 3,
+            "text": "Dairy"
+          },
+          {
+            "level": 3,
+            "text": "Frozen foods"
+          },
+          {
+            "level": 3,
+            "text": "Grocery distribution centers"
+          },
+          {
+            "level": 2,
+            "text": "Reefer equipment"
+          },
+          {
+            "level": 2,
+            "text": "Handling details"
+          },
+          {
+            "level": 3,
+            "text": "Pre-cooling"
+          },
+          {
+            "level": 3,
+            "text": "Monitoring on the road"
+          },
+          {
+            "level": 3,
+            "text": "Temperature records"
+          },
+          {
+            "level": 3,
+            "text": "Food safety training"
+          },
+          {
+            "level": 3,
+            "text": "Loads at more than one temperature"
+          },
+          {
+            "level": 3,
+            "text": "Insurance and DOT number"
+          },
+          {
+            "level": 2,
+            "text": "Regular lanes"
+          },
+          {
+            "level": 2,
+            "text": "Need a reefer out of Dallas?"
+          }
+        ],
+        "localKeywords": [
+          "Dallas",
+          "Texas"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Refrigerated carrier · Wilmer, TX",
+          "lead": "We haul produce, dairy and frozen foods in 53-ft reefers and multi-temperature trailers. We pre-cool every trailer and watch the temperature the whole trip.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": [],
+          "secondaryCta": {
+            "label": "See our lanes",
+            "href": "lanes/"
+          },
+          "image": {
+            "id": "reefer-conventional",
+            "alt": "A long-nose tractor coupled to a white refrigerated trailer with its reefer unit on the front"
+          }
+        },
+        {
+          "kind": "stats",
+          "label": "Fleet and dispatch",
+          "items": [
+            {
+              "value": "26",
+              "label": "Tractors"
+            },
+            {
+              "value": "30",
+              "label": "53-ft reefers"
+            },
+            {
+              "value": "6",
+              "label": "Multi-temperature reefers"
+            },
+            {
+              "value": "24/7",
+              "label": "Dispatch"
+            }
+          ]
+        },
+        {
+          "kind": "cards",
+          "display": "modules",
+          "heading": "What we haul",
+          "intro": "Food freight that has to stay at a set temperature from pickup to delivery.",
+          "items": [
+            {
+              "title": "Fresh produce",
+              "body": "Pre-cooled trailers for produce, including McAllen loads in produce season."
+            },
+            {
+              "title": "Dairy",
+              "body": "Dairy loads held at the set point you give us."
+            },
+            {
+              "title": "Frozen foods",
+              "body": "Frozen loads kept at the set point from dock to dock."
+            },
+            {
+              "title": "Grocery distribution centers",
+              "body": "Deliveries to grocery distribution centers, with temperature records for the receiver."
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "heading": "Reefer equipment",
+          "image": {
+            "id": "reefer-unit",
+            "alt": "Close view of the refrigeration unit on the front of a refrigerated trailer"
+          },
+          "paragraphs": [
+            "Temperature is the job. We pre-cool every trailer and we watch it the whole trip."
+          ],
+          "items": [
+            "30 single-temperature 53-ft reefers",
+            "6 multi-temperature 53-ft reefers",
+            "Trailer temperature monitoring on every trip",
+            "26 tractors, with dispatch open 24/7"
+          ]
+        },
+        {
+          "kind": "accordion",
+          "heading": "Handling details",
+          "intro": "Open a topic to see how we handle cold freight.",
+          "items": [
+            {
+              "title": "Pre-cooling",
+              "body": "We pre-cool every trailer before loading."
+            },
+            {
+              "title": "Monitoring on the road",
+              "body": "We watch trailer temperature for the whole trip. If a reading moves, the shipper and the receiver hear from us before they ask."
+            },
+            {
+              "title": "Temperature records",
+              "body": "Temperature records are available for every load."
+            },
+            {
+              "title": "Food safety training",
+              "body": "Our drivers are trained on the FDA sanitary transportation rule."
+            },
+            {
+              "title": "Loads at more than one temperature",
+              "body": "We have 6 multi-temperature reefers for loads that need more than one temperature zone."
+            },
+            {
+              "title": "Insurance and DOT number",
+              "body": "We are fully insured and send a certificate of insurance on request. Our DOT number is on file."
+            }
+          ]
+        },
+        {
+          "kind": "lanes",
+          "display": "table",
+          "heading": "Regular lanes",
+          "intro": "Most lanes start in Dallas. McAllen loads run north in produce season.",
+          "lanes": [
+            {
+              "from": "Dallas, TX",
+              "to": "Houston, TX",
+              "miles": 240,
+              "frequency": "Daily"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "San Antonio, TX",
+              "miles": 275,
+              "frequency": "Daily"
+            },
+            {
+              "from": "McAllen, TX",
+              "to": "Dallas, TX",
+              "miles": 500,
+              "frequency": "Daily in produce season"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "Oklahoma City, OK",
+              "miles": 205,
+              "frequency": "4 times a week"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "Little Rock, AR",
+              "miles": 320,
+              "frequency": "2 times a week"
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a reefer out of Dallas?",
+          "body": "Send the lane, the commodity and the set point. We send a quote within 2 hours on business days.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "path": "services/",
+      "navLabel": "Services",
+      "seo": {
+        "title": "Reefer and Frozen Freight Services in Dallas | Larkspur",
+        "description": "Fresh produce, dairy, frozen foods and grocery distribution center deliveries in 53-ft reefers from Dallas. Temperature records for every load.",
+        "h1": "Reefer services\nfor food shippers.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Reefer services for food shippers."
+          },
+          {
+            "level": 2,
+            "text": "Freight we move"
+          },
+          {
+            "level": 3,
+            "text": "Fresh produce"
+          },
+          {
+            "level": 3,
+            "text": "Dairy"
+          },
+          {
+            "level": 3,
+            "text": "Frozen foods"
+          },
+          {
+            "level": 3,
+            "text": "Grocery distribution centers"
+          },
+          {
+            "level": 2,
+            "text": "Equipment"
+          },
+          {
+            "level": 3,
+            "text": "53-ft reefers"
+          },
+          {
+            "level": 3,
+            "text": "Multi-temperature reefers"
+          },
+          {
+            "level": 3,
+            "text": "Trailer temperature monitoring"
+          },
+          {
+            "level": 2,
+            "text": "How dispatch works"
+          },
+          {
+            "level": 2,
+            "text": "Need a reefer out of Dallas?"
+          }
+        ],
+        "localKeywords": [
+          "Dallas"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Services",
+          "lead": "Single-temperature and multi-temperature reefers for produce, dairy, frozen foods and grocery deliveries.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "cards",
+          "display": "modules",
+          "heading": "Freight we move",
+          "items": [
+            {
+              "title": "Fresh produce",
+              "body": "Trailers pre-cooled before loading."
+            },
+            {
+              "title": "Dairy",
+              "body": "Held at your set point for the whole trip."
+            },
+            {
+              "title": "Frozen foods",
+              "body": "Kept frozen from dock to dock."
+            },
+            {
+              "title": "Grocery distribution centers",
+              "body": "Delivered with temperature records for the receiver."
+            }
+          ]
+        },
+        {
+          "kind": "cards",
+          "display": "modules",
+          "heading": "Equipment",
+          "items": [
+            {
+              "title": "53-ft reefers",
+              "body": "30 single-temperature refrigerated trailers."
+            },
+            {
+              "title": "Multi-temperature reefers",
+              "body": "6 trailers with more than one temperature zone."
+            },
+            {
+              "title": "Trailer temperature monitoring",
+              "body": "We watch trailer temperature for the whole trip."
+            }
+          ]
+        },
+        {
+          "kind": "checklist",
+          "heading": "How dispatch works",
+          "items": [
+            "Dispatch open 24/7",
+            "Quotes within 2 hours on business days",
+            "Temperature records available for every load",
+            "Certificate of insurance on request"
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a reefer out of Dallas?",
+          "body": "Send the lane, the commodity and the set point. We send a quote within 2 hours on business days.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lanes",
+      "path": "lanes/",
+      "navLabel": "Lanes & Coverage",
+      "seo": {
+        "title": "Dallas Reefer Lanes: TX, OK and AR | Larkspur Cold Lines",
+        "description": "Regular reefer lanes from Dallas to Houston, San Antonio, Oklahoma City and Little Rock, plus McAllen produce loads into Dallas.",
+        "h1": "Lanes across Texas,\nOklahoma and Arkansas.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Lanes across Texas, Oklahoma and Arkansas."
+          },
+          {
+            "level": 2,
+            "text": "Regular lanes"
+          },
+          {
+            "level": 2,
+            "text": "Outside these lanes"
+          },
+          {
+            "level": 2,
+            "text": "Need a reefer out of Dallas?"
+          }
+        ],
+        "localKeywords": [
+          "Dallas",
+          "Houston",
+          "San Antonio",
+          "McAllen",
+          "Oklahoma City",
+          "Little Rock"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Lanes and coverage",
+          "lead": "These lanes run on a set schedule. We also take reefer loads to other points in Texas, Oklahoma and Arkansas.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "lanes",
+          "display": "table",
+          "heading": "Regular lanes",
+          "intro": "Distances are approximate road miles.",
+          "lanes": [
+            {
+              "from": "Dallas, TX",
+              "to": "Houston, TX",
+              "miles": 240,
+              "frequency": "Daily"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "San Antonio, TX",
+              "miles": 275,
+              "frequency": "Daily"
+            },
+            {
+              "from": "McAllen, TX",
+              "to": "Dallas, TX",
+              "miles": 500,
+              "frequency": "Daily in produce season"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "Oklahoma City, OK",
+              "miles": 205,
+              "frequency": "4 times a week"
+            },
+            {
+              "from": "Dallas, TX",
+              "to": "Little Rock, AR",
+              "miles": 320,
+              "frequency": "2 times a week"
+            }
+          ]
+        },
+        {
+          "kind": "prose",
+          "heading": "Outside these lanes",
+          "paragraphs": [
+            "Send the pickup and delivery cities and the set point. Dispatch tells you if we can cover the load."
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a reefer out of Dallas?",
+          "body": "Send the lane, the commodity and the set point. We send a quote within 2 hours on business days.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quote",
+      "path": "quote/",
+      "navLabel": "Request a Quote",
+      "seo": {
+        "title": "Request a Reefer Quote in Dallas | Larkspur Cold Lines",
+        "description": "Send your Dallas reefer load: lane, commodity, set point and pickup date. We send a quote within 2 hours on business days.",
+        "h1": "Request a reefer quote.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Request a reefer quote."
+          },
+          {
+            "level": 2,
+            "text": "Load details"
+          },
+          {
+            "level": 2,
+            "text": "Dispatch is open 24/7"
+          }
+        ],
+        "localKeywords": [
+          "Dallas"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "Quotes",
+          "lead": "Give us the lane, the commodity and the set point. We send a quote within 2 hours on business days.",
+          "primaryCta": {
+            "label": "Go to the form",
+            "href": "#quote-form"
+          },
+          "highlights": [],
+          "secondaryCta": {
+            "label": "Call (214) 555-0117",
+            "href": "tel:+12145550117"
+          }
+        },
+        {
+          "kind": "quote-form",
+          "heading": "Load details",
+          "intro": "Put the set point in the freight details.",
+          "equipmentOptions": [
+            "53-ft reefer",
+            "Multi-temperature reefer"
+          ],
+          "submitLabel": "Send quote request",
+          "responseNote": "Quotes within 2 hours on business days.",
+          "contactHeading": "Dispatch is open 24/7"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "path": "faq/",
+      "navLabel": "FAQ",
+      "seo": {
+        "title": "Dallas Reefer Shipping FAQ | Larkspur Cold Lines",
+        "description": "Answers about Larkspur Cold Lines: Dallas reefer lanes, multi-temperature trailers, temperature records, food safety training and quote times.",
+        "h1": "Questions from\nfood shippers.",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Questions from food shippers."
+          },
+          {
+            "level": 2,
+            "text": "Common questions"
+          },
+          {
+            "level": 3,
+            "text": "Which areas do you serve from Dallas?"
+          },
+          {
+            "level": 3,
+            "text": "Do you haul produce from McAllen?"
+          },
+          {
+            "level": 3,
+            "text": "Can one trailer hold more than one temperature?"
+          },
+          {
+            "level": 3,
+            "text": "Can I see temperature records?"
+          },
+          {
+            "level": 3,
+            "text": "Are your drivers trained on food safety?"
+          },
+          {
+            "level": 3,
+            "text": "How fast do I get a quote?"
+          },
+          {
+            "level": 2,
+            "text": "Need a reefer out of Dallas?"
+          }
+        ],
+        "localKeywords": [
+          "Dallas"
+        ]
+      },
+      "sections": [
+        {
+          "kind": "hero",
+          "eyebrow": "FAQ",
+          "lead": "Short answers about lanes, trailers, temperature records and quotes.",
+          "primaryCta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          },
+          "highlights": []
+        },
+        {
+          "kind": "faq",
+          "display": "accordion",
+          "heading": "Common questions",
+          "items": [
+            {
+              "q": "Which areas do you serve from Dallas?",
+              "a": "Texas, Oklahoma and Arkansas. Our daily lanes go to Houston and San Antonio. We run to Oklahoma City 4 times a week and to Little Rock 2 times a week."
+            },
+            {
+              "q": "Do you haul produce from McAllen?",
+              "a": "Yes. We run McAllen to Dallas daily in produce season."
+            },
+            {
+              "q": "Can one trailer hold more than one temperature?",
+              "a": "Yes. We have 6 multi-temperature reefers."
+            },
+            {
+              "q": "Can I see temperature records?",
+              "a": "Yes. Temperature records are available for every load."
+            },
+            {
+              "q": "Are your drivers trained on food safety?",
+              "a": "Yes. Our drivers are trained on the FDA sanitary transportation rule."
+            },
+            {
+              "q": "How fast do I get a quote?",
+              "a": "Within 2 hours on business days. Dispatch is open 24/7."
+            }
+          ]
+        },
+        {
+          "kind": "cta",
+          "heading": "Need a reefer out of Dallas?",
+          "body": "Send the lane, the commodity and the set point. We send a quote within 2 hours on business days.",
+          "cta": {
+            "label": "Request a quote",
+            "href": "quote/"
+          }
+        }
+      ]
+    }
+  ],
+  "structuredData": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Larkspur Cold Lines",
+      "description": "Refrigerated carrier in the Dallas area for produce, dairy and frozen foods across Texas, Oklahoma and Arkansas.",
+      "url": "https://work.nielzontolentino.com/carrier-sites/larkspur-cold-lines/",
+      "telephone": "(214) 555-0117",
+      "email": "larkspur.ops@example.com",
+      "foundingDate": "2016",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "88 Teal Creek Drive",
+        "addressLocality": "Wilmer",
+        "addressRegion": "TX",
+        "postalCode": "75172",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Dallas, TX",
+        "Houston, TX",
+        "San Antonio, TX",
+        "McAllen, TX",
+        "Oklahoma City, OK",
+        "Little Rock, AR"
+      ]
+    },
+    "faqPage": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which areas do you serve from Dallas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Texas, Oklahoma and Arkansas. Our daily lanes go to Houston and San Antonio. We run to Oklahoma City 4 times a week and to Little Rock 2 times a week."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you haul produce from McAllen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We run McAllen to Dallas daily in produce season."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can one trailer hold more than one temperature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We have 6 multi-temperature reefers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I see temperature records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Temperature records are available for every load."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your drivers trained on food safety?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our drivers are trained on the FDA sanitary transportation rule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast do I get a quote?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 2 hours on business days. Dispatch is open 24/7."
+          }
+        }
+      ]
+    }
+  },
+  "sitemap": [
+    {
+      "path": "",
+      "changefreq": "weekly",
+      "priority": 1
+    },
+    {
+      "path": "services/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    },
+    {
+      "path": "lanes/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    },
+    {
+      "path": "quote/",
+      "changefreq": "monthly",
+      "priority": 0.9
+    },
+    {
+      "path": "faq/",
+      "changefreq": "monthly",
+      "priority": 0.7
+    }
+  ],
+  "facts": [
+    {
+      "id": "founded",
+      "claim": "Founded in 2016",
+      "source": "foundedYear",
+      "value": "2016"
+    },
+    {
+      "id": "tractors",
+      "claim": "26 tractors",
+      "source": "fleet.tractors",
+      "value": "26"
+    },
+    {
+      "id": "reefers",
+      "claim": "30 reefers",
+      "source": "fleet.trailers.0.count",
+      "value": "30"
+    },
+    {
+      "id": "reefer-type",
+      "claim": "53-ft refrigerated trailers",
+      "source": "fleet.trailers.0.type",
+      "value": "53-ft refrigerated trailer"
+    },
+    {
+      "id": "multi-temp",
+      "claim": "6 multi-temperature reefers",
+      "source": "fleet.trailers.1.count",
+      "value": "6"
+    },
+    {
+      "id": "dispatch",
+      "claim": "Dispatch open 24/7",
+      "source": "hours.0",
+      "value": "Dispatch open 24/7"
+    },
+    {
+      "id": "fda",
+      "claim": "FDA sanitary transportation rule training",
+      "source": "credentials.0",
+      "value": "Drivers trained on the FDA sanitary transportation rule"
+    },
+    {
+      "id": "temp-records",
+      "claim": "Temperature records for every load",
+      "source": "credentials.1",
+      "value": "Temperature records available for every load"
+    },
+    {
+      "id": "insured",
+      "claim": "Fully insured, certificate on request",
+      "source": "credentials.2",
+      "value": "Fully insured, certificate of insurance on request"
+    },
+    {
+      "id": "dot",
+      "claim": "DOT number on file",
+      "source": "credentials.3",
+      "value": "DOT number on file"
+    },
+    {
+      "id": "precool",
+      "claim": "Pre-cools every trailer",
+      "source": "ownerNote",
+      "value": "We pre-cool every trailer"
+    },
+    {
+      "id": "quote-speed",
+      "claim": "Quotes within 2 hours",
+      "source": "quoteResponse",
+      "value": "within 2 hours during business days"
+    },
+    {
+      "id": "area",
+      "claim": "Texas, Oklahoma and Arkansas",
+      "source": "serviceArea",
+      "value": "Texas, Oklahoma and Arkansas"
+    },
+    {
+      "id": "lane-hou",
+      "claim": "Houston about 240 miles",
+      "source": "lanes.0.miles",
+      "value": "240"
+    },
+    {
+      "id": "lane-sat",
+      "claim": "San Antonio about 275 miles",
+      "source": "lanes.1.miles",
+      "value": "275"
+    },
+    {
+      "id": "lane-mfe",
+      "claim": "McAllen about 500 miles",
+      "source": "lanes.2.miles",
+      "value": "500"
+    },
+    {
+      "id": "lane-okc",
+      "claim": "Oklahoma City about 205 miles",
+      "source": "lanes.3.miles",
+      "value": "205"
+    },
+    {
+      "id": "lane-okc-freq",
+      "claim": "Oklahoma City 4 times a week",
+      "source": "lanes.3.frequency",
+      "value": "4 times a week"
+    },
+    {
+      "id": "lane-lit",
+      "claim": "Little Rock about 320 miles",
+      "source": "lanes.4.miles",
+      "value": "320"
+    },
+    {
+      "id": "lane-lit-freq",
+      "claim": "Little Rock 2 times a week",
+      "source": "lanes.4.frequency",
+      "value": "2 times a week"
+    },
+    {
+      "id": "phone",
+      "claim": "Dispatch phone",
+      "source": "contact.phone",
+      "value": "(214) 555-0117"
+    },
+    {
+      "id": "email",
+      "claim": "Dispatch email",
+      "source": "contact.email",
+      "value": "larkspur.ops@example.com"
+    },
+    {
+      "id": "street",
+      "claim": "Street address",
+      "source": "base.street",
+      "value": "88 Teal Creek Drive"
+    },
+    {
+      "id": "zip",
+      "claim": "ZIP code",
+      "source": "base.zip",
+      "value": "75172"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+---
+// generated carrier sites carry their own light designs, so they do not use the demo site layout.
+// the fonts are self-hosted; a browser only downloads the families that a site's tokens name.
+import '@fontsource/source-serif-4/latin-600.css';
+import '@fontsource/source-sans-3/latin-400.css';
+import '@fontsource/source-sans-3/latin-600.css';
+import '@fontsource/ibm-plex-sans/latin-400.css';
+import '@fontsource/ibm-plex-sans/latin-500.css';
+import '@fontsource/ibm-plex-sans/latin-600.css';
+import '@fontsource/ibm-plex-mono/latin-500.css';
+import '@fontsource/barlow-condensed/latin-700.css';
+import '@fontsource/barlow/latin-400.css';
+import '@fontsource/barlow/latin-500.css';
+import '@fontsource/barlow/latin-600.css';
+import type { PageHead } from '../carrier/render';
+
+interface Props {
+  head: PageHead;
+  css: string;
+  body: string;
+}
+
+const { head, css, body } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{head.title}</title>
+    {head.description && <meta name="description" content={head.description} />}
+    <meta name="robots" content={head.robots} />
+    <link rel="canonical" href={head.canonical} />
+    {head.og.map((o) => <meta property={o.property} content={o.content} />)}
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="48x48" />
+    {head.jsonLd.map((json) => <script is:inline type="application/ld+json" set:html={json} />)}
+    <style is:inline set:html={css}></style>
+  </head>
+  <body>
+    <Fragment set:html={body} />
+    <script>
+      import { enhanceSite } from '../carrier/site-client';
+      enhanceSite();
+    </script>
+  </body>
+</html>
